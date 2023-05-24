@@ -6,8 +6,6 @@ import numpy as np
 from pathlib import Path
 from torch.autograd import Variable
 from utils.make_env import make_env
-from algorithms.tomN1 import ToM_decisionN1
-from algorithms.tom01 import ToM_decision01
 from algorithms.tom11 import ToM_decision11
 from algorithms.maddpg import MADDPG
 import matplotlib.pyplot as plt

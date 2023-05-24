@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import time
-from braincog.base.node.node import LIFNode
 
 class MLPNetwork(nn.Module):
     """
